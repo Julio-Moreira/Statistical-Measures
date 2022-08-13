@@ -11,16 +11,29 @@
     <main id="itens">
         <section>
             <em> m<sub>a</sub> = <sup>s</sup>&frasl;<sub>t</sub> </em> <br>
-            <a href="mediana.php"> média aritimetica </a>
+            <a href="media.php"> média aritimetica </a>
         </section>
 
         <section>
-
+            <em> m<sub>e</sub> = ... x ... </em> <br>
+            <a href="mediana.php"> mediana </a>
         </section>
 
         <section>
+            <em> m<sub>o</sub> = f<sub>x</sub> </em> <br>
+            <a href="moda.php"> moda </a>
+        </section>
 
+        <section>
+            <em> f = f<sub>x</sub> </em> <br>
+            <a href="frequencia.php"> frequencia </a>
         </section>
     </main>
+
+    <footer>
+        <fieldset> <legend> Informações </legend>
+                Desenvolvido por Julio C. Moreira (2022)
+        </fieldset>
+    </footer>
 </body>
 </html>

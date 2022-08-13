@@ -34,8 +34,8 @@ body {
 
 #itens {
     display: flex;
-    flex-flow: column;
-    flex-direction: column;
+    flex-flow: row;
+    flex-direction: row;
 }
 
 #itens > section {
@@ -57,7 +57,6 @@ body {
     border-style: solid;
     border-width: 3px;
     box-shadow: 4px 4px 20px #505050;
-    cursor: move;
     transition: 1s;
 }
 
@@ -68,4 +67,11 @@ a {
 
 a:hover {
     color: #a52a2a;
+}
+
+footer > fieldset {
+    border-style: groove;
+    border-color: #0000a5;
+    color: #000024;
+    width: fit-content;
 }
