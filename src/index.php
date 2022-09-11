@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,15 +8,15 @@
     <title>Statistical Measures</title>
 </head>
 <body>
-    <main id="itens">
+    <main id="items">
         <section>
             <em> m<sub>a</sub> = <sup>s</sup>&frasl;<sub>t</sub> </em> <br>
-            <a href="media.php"> mean </a>
+            <a href="pages/mean.php"> mean </a>
         </section>
 
         <section>
-            <em> m<sub>e</sub> = ... x ... </em> <br>
-            <a href="mediana.php"> median </a>
+            <em> m<sub>e</sub> = ... x </em> <br>
+            <a href="pages/median.php"> median </a>
         </section>
 
         <section>

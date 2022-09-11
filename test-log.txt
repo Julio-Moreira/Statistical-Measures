@@ -1,0 +1,8 @@
+Mean (statistical\test\unit\Mean\Mean)
+ [ ] Calculate with integer numbers
+ [ ] Calculate with floating numbers
+
+Median (statistical\test\unit\Median\Median)
+ [ ] Calculate with odd numbers
+ [ ] Calculate with pair numbers
+

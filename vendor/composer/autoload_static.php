@@ -16,6 +16,10 @@ class ComposerStaticInit672a60db4e75c8ff2886c198b4ef4029
             'Doctrine\\Instantiator\\' => 22,
             'DeepCopy\\' => 9,
         ),
+        'A' => 
+        array (
+            'Acme\\' => 5,
+        ),
     );
 
     public static $prefixDirsPsr4 = array (
@@ -26,6 +30,10 @@ class ComposerStaticInit672a60db4e75c8ff2886c198b4ef4029
         'DeepCopy\\' => 
         array (
             0 => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy',
+        ),
+        'Acme\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src',
         ),
     );
 

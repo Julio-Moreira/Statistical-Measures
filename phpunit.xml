@@ -5,11 +5,11 @@
         colors="true">
     <testsuites>
         <testsuite name="Testes de unidade">
-            <directory>tests</directory>
+            <directory>test/Unit</directory>
         </testsuite>
     </testsuites>
 
     <logging>
-        <log type="testdox-text" target="testdox.txt" />
+        <log type="testdox-text" target="test-log.txt" />
     </logging>
 </phpunit>
