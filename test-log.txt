@@ -6,3 +6,6 @@ Median (statistical\test\unit\Median\Median)
  [ ] Calculate with odd numbers
  [ ] Calculate with pair numbers
 
+Mode (statistical\test\unit\Mode\Mode)
+ [ ] If calculate is working
+

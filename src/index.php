@@ -21,7 +21,7 @@
 
         <section>
             <em> m<sub>o</sub> = f<sub>x</sub> </em> <br>
-            <a href="moda.php"> mode </a>
+            <a href="pages/mode.php"> mode </a>
         </section>
 
         <section>

@@ -1,7 +1,10 @@
 <?php 
 namespace src\classes;
 
-class Median {
+use src\interfaces\Statistical;
+require_once "Statistical.php";
+
+class Median implements Statistical {
     public function calculate(array $items): float {
         $middle = floor((count($items) - 1) / 2);
 
@@ -10,7 +13,7 @@ class Median {
             : $items[$middle];
     }
 
-    public function meanOf($value_1, $value_2) {
+    private function meanOf($value_1, $value_2) {
         return ($value_1 + $value_2) / 2;
     }
 }

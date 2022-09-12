@@ -1,6 +1,5 @@
 <?php
 namespace statistical\test\unit\Median;
-require "../classes/Median.php";
 
 use PHPUnit\Framework\TestCase;
 use src\classes\Median as Median;
