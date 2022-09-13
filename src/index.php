@@ -26,7 +26,7 @@
 
         <section>
             <em> f = f<sub>x</sub> </em> <br>
-            <a href="frequencia.php"> frequency </a>
+            <a href="pages/frequency.php"> frequency </a>
         </section>
     </main>
 

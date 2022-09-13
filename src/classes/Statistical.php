@@ -2,5 +2,5 @@
 namespace src\interfaces;
 
 interface Statistical {
-    public function calculate(array $items): float;
+    public function calculate(array $items);
 }
