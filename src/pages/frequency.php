@@ -31,11 +31,14 @@
                     echo " <h1> Result </h1> <br> <table>
                     <tr> <td> Values <td> Frequency <td> Absolute ";
                     
-                    foreach ($result[0] as $key => $value) {
-                        foreach ($result[1] as $valueAbs) {
-                            echo "<tr> <td> $key <td> $value <td> $valueAbs </td>";
+                    $abs = $result[0];
+                    $rel = $result[1];
+                    foreach ($abs as $key => $valueRel) {
+                        foreach ($rel as $valueAbs) {
+                            echo "<tr> <td> $key <td> $valueRel <td> $valueAbs </td>";
                         }
                     }
+                    echo "</table>";
                 }
             ?>
         </section>

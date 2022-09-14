@@ -86,13 +86,6 @@ a:hover {
     color: #a52a2a;
 }
 
-footer > fieldset {
-    border-style: groove;
-    border-color: #0000a5;
-    color: #000024;
-    width: fit-content;
-}
-
 input {
     border-radius: 4px;
     border-color: #000000;
